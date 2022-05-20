@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration:none
+}
+
+body{
+    background-image: url(recursos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: auto;
+    max-height: auto;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+div.web{
+    
+    position: relative;
+    width: 1680px;
+    height: 1000px;
+    
+}
+
+img{
+
+    border-radius: 2%;
+
+}
+
+
+.animeshtml {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: stretch;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px;
+    
+}
+
+
+.animeshtml > * {
+    flex-basis: 20rem;
+    flex-shrink: 0;
+}
+
+.animeshtml .carta {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+
+}
+
+
+.animehtml .carta > .contenido-carta {
+    flex-grow: 1;
+}
+
+
+.animehtml .carta > .imagen-carta {
+
+    flex-basis: 25rem;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+.container-1 input#busqueda{
+    width: 750px;
+    height: 70px;
+    margin-top: 16%;
+    margin-left: 30%;
+    background: hsla(0, 1%, 44%, 0.644);
+    border: none;
+    font-size: 15pt;
+    float: left;
+    color: #000000;
+    padding-left: 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+input.lupa{
+    width: 35px;
+    height: 35px;
+    margin-top: 17%;
+    margin-left: -47.5%;
+    opacity: 60%;
+    
+}
+
+div.RedesSociales{
+    width: 150px;
+    height: 50px;
+    float: left;
+    padding-left: 60px;
+    opacity: 80%;
+}
+
+
+img.Insta{
+    width: 40px;
+    height: 40px;
+    margin-top: 37%;
+    margin-left:-65%;
+    opacity: 80%;
+    padding: 3px;
+    
+}
+
+img.Twitter{
+    width: 40px;
+    height: 40px;
+    opacity: 80%;
+    padding: 3px;
+    
+}
+
+
+img.linkedin{
+    width: 40px;
+    height: 40px;
+    opacity: 80%;
+    padding: 3px;
+    
+}
+
+img.firma{
+    margin-left: -19%;
+    opacity: 80%;
+    padding: 3px;
+}
+
+/* Formato Monitor Ultra Wide*/
+
+@media (min-width:2100px){
+
+
+
+    body{
+        background-image: url(recursos/fondoultrawide.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: auto;
+        max-height: auto;
+    }
+
+
+    div.web{
+    
+        position: relative;
+        width: 2560px;
+        height: 1080px;
+        
+    }
+    
+    
+    .container-1 input#busqueda{
+        width: 750px;
+        height: 70px;
+        margin-top: 7.5%;
+        margin-left: 33%;
+        background: hsla(0, 1%, 82%, 0.644);
+        border: none;
+        font-size: 15pt;
+        float: left;
+        color: #000000;
+        padding-left: 100px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 10px;
+        opacity: 80%;
+    }
+    
+    input.lupa{
+        width: 35px;
+        height: 35px;
+        margin-top: 8.2%;
+        margin-left: -32.5%;
+        opacity: 40%;
+        
+    }
+    
+    div.RedesSociales{
+        width: 150px;
+        height: 50px;
+        float: left;
+        padding-left: 60px;
+        opacity: 80%;
+    }
+    
+    
+    img.Insta{
+        width: 40px;
+        height: 40px;
+        margin-top: 24%;
+        margin-left: -12%;
+        opacity: 80%;
+        padding: 3px;
+        
+    }
+    
+    img.Twitter{
+        width: 40px;
+        height: 40px;
+        opacity: 80%;
+        padding: 3px;
+        
+    }
+    
+    
+    img.linkedin{
+        width: 40px;
+        height: 40px;
+        opacity: 80%;
+        padding: 3px;
+        
+    }
+    
+    img.firma{
+        margin-left: -20%;
+        opacity: 80%;
+        padding: 3px;
+    }
+
+}
+
+
+/* Formato Laptop Mid*/
+
+@media (max-width:1600px){
+
+
+
+
+    div.web{
+    
+        position: relative;
+        width: 1366px;
+        height: 600px;
+        
+    }
+
+
+    input.lupa{
+        
+        margin-left: -58.5%;
+        margin-top: 17.3%;
+        opacity: 40%;
+        
+    }
+
+    div.RedesSociales{
+        width: 150px;
+        height: 50px;
+        float: left;
+        padding-left: 60px;
+        opacity: 80%;
+    }
+    
+    
+    img.Insta{
+        width: 40px;
+        height: 40px;
+        margin-top: 30.7%;
+        margin-left: -71.5%;
+        opacity: 80%;
+        padding: 3px;
+        
+        
+    }
+    
+    img.Twitter{
+        width: 40px;
+        height: 40px;
+        opacity: 80%;
+        padding: 3px;
+        
+    }
+    
+    
+    img.linkedin{
+        width: 40px;
+        height: 40px;
+        opacity: 80%;
+        padding: 3px;
+        
+    }
+    
+    img.firma{
+
+        margin-left: -26%;
+        opacity: 80%;
+        padding: 0px;
+        
+        
+        
+    }
+
+    
+}
+
+
+
+
+
+
+
+/*Formato MOVIL GRANDE*/
+
+@media (max-width:720px){
+
+
+    body{
+        background-image: url(recursos/Movil.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: auto;
+        max-height: auto;
+    }
+    
+    div.web{
+        
+        position: relative;
+        width: 720px;
+        height: 1080px;
+        
+    }
+    
+    
+    .container-1 input#busqueda{
+        width: 500px;
+        height: 70px;
+        margin-top: 13%;
+        right: 20px;
+        background: hsla(0, 1%, 44%, 0.644);
+        border: none;
+        font-size: 15pt;
+        color: #000000;
+        padding-left: 60px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 10px;
+        opacity: 80%;
+        margin-left:13%;
+        
+    }
+    
+    input.lupa{
+        width: 35px;
+        height: 35px;
+        margin-top: 15.5%;
+        margin-left: -76%;
+        opacity: 50%;
+        
+    }
+    
+    div.RedesSociales{
+        width: 150px;
+        height: 50px;
+        float: left;
+        padding-left: 60px;
+        opacity: 80%;
+    }
+    
+    
+    img.Insta{
+        width: 40px;
+        height: 40px;
+        margin-top: 5%;
+        margin-left: -25.5%;
+        opacity: 80%;
+        padding: 3px;
+        
+    }
+    
+    img.Twitter{
+        width: 40px;
+        height: 40px;
+        opacity: 80%;
+        padding: 3px;
+        
+    }
+    
+    
+    img.linkedin{
+        width: 40px;
+        height: 40px;
+        opacity: 80%;
+        padding: 3px;
+        
+    }
+    
+    img.firma{
+        margin-left: -70%;
+        opacity: 80%;
+        padding: 3px;
+        top: 1%;
+    }
+    
+
+    .animeshtml {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: stretch;
+        background-color: rgb(255, 255, 255);
+        background-image: none;
+        
+    }
+
+    
+
+}
